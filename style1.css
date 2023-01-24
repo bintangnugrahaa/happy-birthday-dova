@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("img/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
+}
+
+.text > h1 {
+    text-align: center;
+}
+
+.lanjut {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 18px;
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.lanjut > a {color: rgba(0, 0, 0, 0.5); }
+
+.lanjut input,
+.lanjut > button {
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    border-radius: 8px;
+}
+
+.lanjut > input {
+    border: 2px solid #ebebeb;
+}
+
+.lanjut > button {
+    width: 6%;
+    height: 35px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: #f9f9f9;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("/img/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
+}
+
+.video {
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teks > p {
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.teks > h4 {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
